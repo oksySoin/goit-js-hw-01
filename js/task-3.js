@@ -4,6 +4,8 @@
 
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її роботи.
 
+'use strict';
+
 function getElementWidth(content, padding, border) {
   const width = Number.parseFloat(content) + Number.parseFloat(padding)*2  + Number.parseFloat(border)*2 ;
   return width;  
